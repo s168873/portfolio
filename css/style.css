@@ -1,0 +1,223 @@
+/* ===== ALGEMENE BASIS ===== */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    background: #f2f7fb; /* zachte blauwgrijze achtergrond */
+    color: #2a3a4a;       /* diep maar warm blauw */
+    line-height: 1.7;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #3aa6b9; /* zacht aqua */
+    transition: 0.3s;
+}
+a:hover { color: #2f7f8e; }
+
+/* Afbeeldingen */
+img {
+    width: 100%;
+    border-radius: 0.8rem;
+    display: block;
+}
+
+/* Secties */
+section {
+    padding: 4rem 2rem;
+}
+
+
+
+/* ===== KNOPPEN ===== */
+
+.btn {
+    background: #3aa6b9;
+    color: #fff;
+    padding: 0.9rem 1.7rem;
+    border-radius: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 15px rgba(58,166,185,0.25);
+    transition: 0.3s;
+}
+.btn:hover {
+    background: #2f7f8e;
+}
+
+
+
+/* ===== HEADER ===== */
+
+.site-header {
+    background: #ffffff;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #3aa6b9;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+.nav-links a {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #2a3a4a;
+}
+.nav-links a:hover,
+.nav-links .active {
+    color: #3aa6b9;
+}
+
+
+
+/* ===== HERO ===== */
+
+.hero {
+    min-height: 85vh;
+    background: linear-gradient(135deg, #e3f2f9, #c9e8ef);
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem 1.5rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #2a3a4a;
+}
+.hero p {
+    font-size: 1.2rem;
+    color: #4b5c6a;
+    max-width: 600px;
+    margin: 1rem auto 2.5rem;
+}
+
+
+
+/* ===== PORTFOLIO GRID ===== */
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
+}
+
+.project-card {
+    background: #ffffff;
+    padding: 1.2rem;
+    border-radius: 1rem;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+.project-card:hover {
+    transform: translateY(-6px);
+}
+
+.project-card h3 {
+    margin-top: 1rem;
+    color: #2a3a4a;
+}
+.project-card p {
+    color: #51626e;
+}
+
+
+
+/* ===== ABOUT ===== */
+
+.about-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-photo img {
+    max-width: 280px;
+    border-radius: 1.2rem;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.about-text h2 {
+    font-size: 2rem;
+    color: #2a3a4a;
+}
+
+
+
+/* ===== CONTACT ===== */
+
+.contact-pagina {
+    background: #ffffff;
+    border-radius: 2rem;
+    padding: 4rem 2rem;
+    max-width: 850px;
+    margin: 3rem auto;
+    box-shadow: 0 12px 25px rgba(0,0,0,0.06);
+}
+
+.contact-form {
+    display: grid;
+    gap: 1.3rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.9rem;
+    border-radius: 0.6rem;
+    border: 1px solid #c5d7e0;
+    background: #f7fbfe;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #3aa6b9;
+    outline: none;
+}
+
+
+
+/* ===== FOOTER ===== */
+
+.site-footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    color: #52636f;
+    font-size: 0.95rem;
+}
+
+
+
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 768px) {
+    section {
+        padding: 3rem 1.5rem;
+    }
+    .hero h1 { font-size: 2.3rem; }
+    .hero p { font-size: 1.05rem; }
+}
