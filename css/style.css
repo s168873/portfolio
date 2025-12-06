@@ -224,7 +224,7 @@ section {
 
 .logo-img {
     width: auto !important;
-    height: 45px; /* grootte aanpassen naar wens */
+    height: 80px; /* grootte aanpassen naar wens */
     border-radius: 0 !important; /* logo niet afronden */
     display: inline-block !important;
 }
