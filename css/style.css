@@ -224,7 +224,7 @@ section {
 
 .logo-img {
     width: auto !important;
-    height: 80px; /* grootte aanpassen naar wens */
+    height: 80px; /* grootte aanpassen  */
     border-radius: 0 !important; /* logo niet afronden */
     display: inline-block !important;
 }
@@ -232,4 +232,8 @@ section {
 #map, #Map {
     height: 400px;
     width: 100%;
+}
+
+#Map {
+    margin-top: 20px; /* Witruimte boven de kaart */
 }
