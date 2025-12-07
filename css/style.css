@@ -228,3 +228,8 @@ section {
     border-radius: 0 !important; /* logo niet afronden */
     display: inline-block !important;
 }
+
+#map, #Map {
+    height: 400px;
+    width: 100%;
+}
