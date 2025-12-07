@@ -5,7 +5,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
 
-let bounds = [[51.2220, 4.4375], [51.2210, 4.4395]];
+let bounds = [[50.814604, 4.386932], [50.814604, 4.386932]];
 
 let logoIcon = L.icon({
     iconUrl: 'assets/images/ChatGPT Image Nov 11, 2025, 12_55_38 AM.png',
