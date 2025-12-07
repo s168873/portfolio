@@ -90,17 +90,5 @@
 
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
-<script>
-    const map = L.map('Map').setView([51.219447, 4.402464], 13);
-
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 19
-    }).addTo(map);
-
-    L.marker([51.219447, 4.402464]).addTo(map)
-        .bindPopup("Mijn locatie")
-        .openPopup();
-</script>
-
 </body>
 </html>
