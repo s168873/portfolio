@@ -237,3 +237,31 @@ section {
     display: inline-block !important;
 }
 
+/* Hero naast elkaar */
+.hero {
+    text-align: left !important;
+}
+
+/* Foto in hero */
+.hero-foto {
+    width: 80%;
+    max-width: 350px;
+    border-radius: 50%;            /* Ronde foto */
+    object-fit: cover;
+    aspect-ratio: 1/1;             /* blijft perfect rond */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    margin: 0 auto;
+}
+
+/* Op mobiel: tekst en foto onder elkaar */
+@media (max-width: 768px) {
+    .hero {
+        text-align: center !important;
+    }
+    .hero-foto {
+        width: 55%;
+        max-width: 260px;
+        margin-top: 2rem;
+    }
+}
+
