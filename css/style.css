@@ -199,6 +199,14 @@ section {
     outline: none;
 }
 
+#map, #Map {
+    height: 400px;
+    width: 100%;
+}
+
+#Map {
+    margin-top: 20px; /* Witruimte boven de kaart */
+}
 
 
 /* ===== FOOTER ===== */
@@ -229,11 +237,3 @@ section {
     display: inline-block !important;
 }
 
-#map, #Map {
-    height: 400px;
-    width: 100%;
-}
-
-#Map {
-    margin-top: 20px; /* Witruimte boven de kaart */
-}
