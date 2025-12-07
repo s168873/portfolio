@@ -1,11 +1,11 @@
-let map = L.map('Map').setView([50.814604, 4.386932], 16);
+let map = L.map('Map').setView([51.220117, 4.396364], 16);
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 15,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
 
-let bounds = [[50.814604, 4.386932], [50.814604, 4.386932]];
+let bounds = [[51.220117, 4.396364], [51.220117, 4.396364]];
 
 let logoIcon = L.icon({
     iconUrl: 'assets/images/ChatGPT Image Nov 11, 2025, 12_55_38 AM.png',
@@ -14,4 +14,4 @@ let logoIcon = L.icon({
     popupAnchor: [0, -50]
 });
 
-let apMarker = L.marker([51.2215, 4.4385], { icon: logoIcon }).addTo(map);
+let apMarker = L.marker([51.220117, 4.396364], { icon: logoIcon }).addTo(map);
