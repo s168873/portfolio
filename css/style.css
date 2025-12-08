@@ -41,11 +41,11 @@ section {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
-    box-shadow: 0 4px 15px rgba(58,166,185,0.25);
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.25);
     transition: 0.3s;
 }
 .btn:hover {
-    background: #2f7f8e;
+    background: #000000;
 }
 
 
